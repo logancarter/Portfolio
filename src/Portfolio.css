@@ -1,0 +1,56 @@
+.Portfolio {
+  background-color: white;
+}
+
+.Portfolio-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Portfolio-logo {
+    animation: Portfolio-logo-spin infinite 20s linear;
+  }
+}
+
+.Portfolio-header {
+  margin-top: 81px;
+  margin-left: 165px;
+  margin-right: 165px;
+  font-size: 16px;
+  color: black;
+}
+
+.Portfolio-header .navigation {
+  float: right;
+}
+
+.Portfolio-header #portfolio {
+  padding: 27px;
+}
+
+.Portfolio-link {
+  color: #61dafb;
+}
+
+.hero-text {
+  font-size: 42px;
+  margin-top: 64px;
+  /* margin-left: 456px; */
+  /* margin-right: 165px; */
+}
+.actual-text {
+  width: 423px;
+  position: absolute;
+  left: 50%;
+  margin-left: -211.5px;
+}
+
+@keyframes Portfolio-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
