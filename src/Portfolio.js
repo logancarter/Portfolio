@@ -1,19 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './Portfolio.css';
+import Header from './Header'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 export default function Portfolio() {
   return (
     <Router>
+    <Header></Header>
       <div>
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
           <Route path="/about">
             <About />
@@ -30,21 +28,13 @@ export default function Portfolio() {
 function Home() {
   return (
     <div className="Portfolio">
-    <header className="Portfolio-header">
-      <span className="my-name">Logan Carter</span>
-      <nav className="navigation">
-        <Link to="/" className="nav-text" id="portfolio">Portfolio</Link>
-        <Link to="/about" className="nav-text" id="about">About</Link>
-      </nav>
-    </header>
-
-    <div className="hero-text">
-      <div className="actual-text">
-        <div>UX Designer </div>
-        <div>with a background </div>
-        <div>in Software Engineering</div>
+      <div className="hero-text">
+        <div className="actual-text">
+          <div>UX Designer </div>
+          <div>with a background </div>
+          <div>in Software Engineering</div>
+        </div>
       </div>
-    </div>
   </div>
   )
 }
