@@ -55,6 +55,12 @@
   text-decoration: underline;
 }
 
+.about-header {
+  font-size: 42px;
+  text-align: center;
+  margin-top: 64px;
+}
+
 @keyframes Portfolio-logo-spin {
   from {
     transform: rotate(0deg);

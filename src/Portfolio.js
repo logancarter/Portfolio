@@ -40,5 +40,5 @@ function Home() {
 }
 
 function About() {
-  return <h2>About</h2>;
+  return <div className='about-header'>About</div>;
 }
