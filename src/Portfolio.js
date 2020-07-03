@@ -33,8 +33,8 @@ function Home() {
     <header className="Portfolio-header">
       <span className="my-name">Logan Carter</span>
       <nav className="navigation">
-        <Link to="/" id="portfolio">Portfolio</Link>
-        <Link to="/about" id="about">About</Link>
+        <Link to="/" className="nav-text" id="portfolio">Portfolio</Link>
+        <Link to="/about" className="nav-text" id="about">About</Link>
       </nav>
     </header>
 
